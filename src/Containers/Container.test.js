@@ -4,7 +4,7 @@ import Container from '../Containers/Container';
 import Enzyme from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new EnzymeAdapter() });
-
+//
 describe('The Container component', () => {
 	let ContainerComponent = shallow(<Container />);
 	it('should render without error', () => {
